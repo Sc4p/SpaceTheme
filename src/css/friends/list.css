@@ -4,6 +4,13 @@
     box-shadow: none;
 }
 
+.friendListButton .SVGIcon_DoubleArrow {
+    opacity: 0.7;
+}
+
+polyline {
+    stroke: rgb(var(--accent-1));
+}
 
 /* User pannel */
 .currentUserContainer {
@@ -42,6 +49,7 @@
     border-radius: 8px;
     background: rgb(var(--color-1));
 }
+
 ._1osHa9KHOmdCDNrA232z4N,
 ._2OoTJwlWvzvAysWOOEQaXS {
     display: none;
@@ -63,12 +71,14 @@
     margin-bottom: 0;
     border-radius: 8px;
 }
+
 .friendsListSectionTitle {
     margin-bottom: 6px;
     padding: 6px 12px;
     border-radius: 8px;
     background-color: rgb(var(--color-2));
 }
+
 .friendsListSectionTitle:hover {
     background-color: rgb(var(--color-4)) !important;
 }
@@ -77,6 +87,7 @@
     border-radius: 8px;
     background: rgb(var(--color-1));
 }
+
 .ChatRoomList {
     padding: 0;
 }
