@@ -23,11 +23,11 @@ html.web_chat_frame body {
 .TitleBar .title-area-icon:hover {
     background-color: rgb(var(--color-3));
 }
-.TitleBar  .title-area-icon:hover .SVGIcon_Button rect,
+/*.TitleBar  .title-area-icon:hover .SVGIcon_Button rect,
 .TitleBar  .title-area-icon:hover .SVGIcon_Button line,
 .TitleBar  .title-area-icon:hover .SVGIcon_Button polyline {
     stroke: #dddddd;
-}
+}*/
 
 
 
