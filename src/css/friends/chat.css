@@ -45,6 +45,14 @@
     display: none;
 }
 
+._1JXI4j2_xSpVK1YjyEuebr .SVGIcon_X_Line line {
+    stroke: rgb(var(--accent-1));
+}
+
+._1JXI4j2_xSpVK1YjyEuebr:hover .SVGIcon_X_Line line {
+    stroke: rgb(var(--accent-2));
+}
+
 /* More Tabs */
 .chatTabSelector {
     display: flex;

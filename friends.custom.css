@@ -15,8 +15,24 @@
     margin-left: -16px;
 }
 
-.title-area-icon .SVGIcon_Button line, .title-area-icon .SVGIcon_Button rect {
+.friendsui-container .title-area-icon .SVGIcon_Button line, .friendsui-container .title-area-icon .SVGIcon_Button rect, .friendsui-container .title-area-icon .SVGIcon_Button polyline {
     stroke: rgb(var(--accent-1));
+}
+
+.friendsui-container .title-area-icon.windowControlButton:hover {
+    background: rgb(var(--color-2));
+}
+
+.friendsui-container .title-area-icon.windowControlButton.closeButton:hover {
+    background: rgb(var(--accent-1));
+}
+
+.friendsui-container .title-area-icon.windowControlButton.closeButton:hover .SVGIcon_Button line {
+    stroke: rgb(var(--color-2));
+}
+
+.friendsui-container .title-area-icon.windowControlButton:hover {
+    background: rgb(var(--color-2));
 }
 
 .friendsListContainer,
